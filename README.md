@@ -9,7 +9,7 @@ I can make this show the users profile, ROBUX, RAP, etc using APIS, but I will n
 
 steps:
 
-1. your gonna wanna create a website, you can use https://000webhostapp.com if you are new.
+1. create a website, you can use https://000webhostapp.com if you are new.
 
 2. once you have your website, you want to upload the "index.html" file to your host.
 
